@@ -1,0 +1,564 @@
+/* Font*/
+@font-face {
+  font-family: Coda_Caption;
+  src: url(../font/Coda_Caption/CodaCaption-ExtraBold.ttf);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Coda_Caption;
+}
+
+body {
+  margin: 0;
+}
+.uni-padding {
+  padding: 0 7%;
+}
+
+/* Top bar */
+#topbar {
+  background-color: gray;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  overflow: auto;
+}
+#social_icon {
+  float: right;
+  color: white;
+}
+#tollfree {
+  float: left;
+  color: white;
+  margin: 0;
+}
+.fa-brands {
+  color: white;
+  text-decoration: none;
+}
+
+/*Logo*/
+#logobar {
+  text-align: center;
+}
+#logobar img {
+  width: 200px;
+  height: 80px;
+  margin-top: 4px;
+}
+
+/*Navbar*/
+#navbar {
+  background-color: brown;
+}
+#navbar ul {
+  padding: 0;
+  margin: 0;
+}
+#navbar ul li {
+  display: inline-block;
+  padding: 20px 0;
+  padding-right: 35px;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Banner Img*/
+#banner {
+  background-image: url(../images/banner.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*WHY us section*/
+.sec33 img {
+  height: 150px;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+#why-us-section {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.sec33 {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.orange-heading {
+  color: orangered;
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*RED STRIP*/
+#red-strip-contact {
+  overflow: auto;
+  background-color: red;
+  color: white;
+}
+
+#strip70 {
+  width: 70%;
+  float: left;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+#strip30 {
+  width: 30%;
+  float: right;
+  padding: 50px 0;
+}
+
+#strip30 a {
+  text-decoration: none;
+  background-color: white;
+  color: orangered;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*BLOG section*/
+.sec33 img {
+  height: 150px;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+#blog-section {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.sec33 {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.orange-heading {
+  color: orangered;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.sec33 a {
+  color: brown;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Coda_Caption;
+  font-size: 14px;
+}
+
+/*Red strip subscripe*/
+#red-strip-subscripe {
+  overflow: auto;
+  background-color: red;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.strip50 {
+  width: 50%;
+  float: left;
+}
+
+.strip50 h2 {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.strip50 form {
+  padding-top: 25px;
+}
+
+.strip50 input[type="text"] {
+  padding: 5px 10px;
+  font-size: 15px;
+  color: black;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.strip50 input[type="submit"] {
+  padding: 5px 35px;
+  font-size: 15px;
+  color: orangered;
+}
+
+/*Footer*/
+#imp-link {
+  background-color: grey;
+  color: white;
+  overflow: auto;
+}
+.div33 {
+  width: 33.33%;
+  float: left;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+#footer-menu {
+  list-style-type: none;
+  padding: 0;
+}
+#footer-menu li {
+  padding-bottom: 10px;
+}
+#footer-menu li a {
+  text-decoration: none;
+  color: white;
+}
+#footer-menu-container {
+  padding-left: 100px;
+}
+
+/*Copyright*/
+#copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+/* responsive ipad*/
+@media only screen and (max-width: 850px) {
+  .strip50 input[type="text"] {
+    margin-bottom: 10px;
+  }
+}
+
+/*responsive iPhone XR*/
+@media only screen and (max-width: 500px) {
+  .sec33,
+  .div33,
+  .strip50,
+  #strip70 {
+    width: 100%;
+  }
+
+  #strip70 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  #strip30 {
+    padding: 21px 115px;
+  }
+  #strip30 a {
+    padding: 6px 4px;
+  }
+
+  .strip50 h2 {
+    text-align: center;
+    padding-right: 0;
+  }
+  .strip50 form {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .strip50 input[type="text"] {
+    padding: 5px 17px;
+    margin-right: 4px;
+  }
+
+  .sec33 a {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  .div33 {
+    text-align: center;
+  }
+  #footer-menu-container {
+    padding-left: 50px;
+  }
+}
+
+/*ABOUT US PAGE*/
+
+/* SECTION: WHAT WE DO */
+#section-what-we-do {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+}
+
+/*SECTION: How to Play the Flute */
+.sec-heading {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#sec30 img {
+  height: 270px;
+  width: 250px;
+  padding-left: 80px;
+}
+
+#section-how-play-flute {
+  overflow: auto;
+  background-color: antiquewhite;
+}
+#sec30 {
+  width: 30%;
+  float: left;
+}
+
+#sec70 {
+  width: 70%;
+  float: right;
+  padding-bottom: 20px;
+}
+
+/*SECTION: Hand and Arm Placement*/
+
+#section-hand-and-are-placement {
+  overflow: auto;
+  background-color: aliceblue;
+}
+.secH-A-placement img {
+  height: 250px;
+  width: 300px;
+}
+
+.secH-A-placement {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*RED STRIP*/
+#red-strip-contact {
+  overflow: auto;
+  background-color: red;
+  color: white;
+}
+
+#strip70 {
+  width: 70%;
+  float: left;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+#strip30 {
+  width: 30%;
+  float: right;
+  padding: 50px 0;
+}
+
+#strip30 a {
+  text-decoration: none;
+  background-color: white;
+  color: orangered;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* SEC: PROPER EMBOCTURE*/
+#section-proper-embouchure {
+  overflow: auto;
+  background-color: antiquewhite;
+}
+.sec-prop_embouchure img {
+  height: 250px;
+  width: 300px;
+}
+
+.sec-prop_embouchure {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*SERVICES PAGE START*/
+
+/*SECTION: FLUTE TYPES*/
+
+#sec-flute_info {
+  overflow: auto;
+  background-color: #f1e9e9;
+}
+.sec-heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*sacle A*/
+#scale-A {
+  overflow: auto;
+}
+
+#scale-A .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-A .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-A .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle B*/
+#scale-B {
+  overflow: auto;
+}
+#scale-B .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-B .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-B .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle C*/
+#scale-C {
+  overflow: auto;
+}
+#scale-C .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-C .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-C .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle D*/
+#scale-D {
+  overflow: auto;
+}
+#scale-D .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-D .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-D .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle E*/
+#scale-E {
+  overflow: auto;
+}
+#scale-E .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-E .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-E .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle F*/
+#scale-F {
+  overflow: auto;
+}
+#scale-F .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-F .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-F .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+/*sacle G*/
+#scale-G {
+  overflow: auto;
+  padding-bottom: 30px;
+}
+#scale-G .sec-flute-img30 img {
+  height: 270px;
+  width: 250px;
+}
+
+#scale-G .sec-flute-img30 {
+  width: 30%;
+  float: left;
+}
+
+#scale-G .sec-flute-content70 {
+  width: 70%;
+  float: right;
+}
+
+.sec-flute-content70 input {
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: white;
+}
